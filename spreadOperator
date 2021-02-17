@@ -1,0 +1,52 @@
+// Spread Operator in function call ...
+/*
+const arr = [10, 23, 34, 43, 53];
+
+function arrFunc(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+
+console.log(arrFunc(...arr));
+
+console.log(Math.min(...arr));
+*/
+
+/*
+// Spread operator in array literals
+const arr1 = ["Windows", "MacOS", "Linux"];
+const arr2 = ["Bill gates", "Steve Jobs", "Linus Torvald"];
+
+const newArr = [...arr1, ...arr2];
+
+// Making a new array
+console.log(newArr);
+
+// Returning the value from arrays
+console.log(...newArr);
+
+*/
+
+/*
+// Spread operator used in string literals
+
+const str = "Hello";
+
+const newStr = [...str];
+
+console.log(newStr);
+
+*/
+
+const obj1 = {
+  name: "mozahedul",
+  title: "programmer",
+};
+
+const obj2 = {
+  age: 32,
+  address: "Bangladesh",
+};
+
+const newObj = { ...obj1, ...obj2 };
+
+console.log(newObj);
